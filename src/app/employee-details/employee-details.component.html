@@ -1,0 +1,20 @@
+<div>
+  <p>Employee details</p>
+  <div
+    *ngIf="emp!=undefined && previousValue!=undefined &&currentValue !=undefined"
+  >
+    <p>Nombre:{{emp.name}}</p>
+    <p>Correo:{{emp.email}}</p>
+    <br /><br />
+    <p>Persona anterior: {{previousValue.name}}</p>
+    <p>Persona actual: {{currentValue.name}}</p>
+  </div>
+
+  <div *ngIf="previousValue == undefined">
+    <p>Nombre:{{emp.name}}</p>
+    <p>Correo:{{emp.email}}</p>
+    <br />
+    <span>Persona anterior: Es nula</span><br />
+    <span>Persona actual: {{currentValue.name}}</span>
+  </div>
+</div>

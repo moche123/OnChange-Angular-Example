@@ -1,0 +1,5 @@
+<input type="text" #employee />
+<button type="button" (click)="DisplayDetails(employee.value)">
+  Show Details
+</button>
+<app-employee-details [empId]="currentEmpId"></app-employee-details>
