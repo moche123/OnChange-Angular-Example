@@ -1,5 +1,5 @@
 # Hello!
-this is a example about ngOnchange from hook lifecycle
+this is a example about ngOnchange from hook lifecycle using Jason Place Holders app, enjoy it!
 
 # angular-ivy-rtpcwm
 
